@@ -70,10 +70,10 @@ Rails.application.configure do
     user_name:      ENV["SMTP_USERNAME"],
     password:       ENV["SMTP_PASSWORD"],
     authentication: ENV["SMTP_AUTHENTICATION"],
-    enable_starttls_auto: true,
     ssl: true,
     tls: true,
-    openssl_verify_mode: "none"
+    openssl_verify_mode: "none",
+    enable_starttls_auto: true,
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
