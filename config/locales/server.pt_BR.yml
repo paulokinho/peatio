@@ -1017,11 +1017,9 @@ en:
           member_name: "<span class='text-danger'>O nome na sua conta de depósito deve ser igual ao seu nome de autenticação.</span>"
           sn: "<span class='text-danger'>Por favor copie o Número de sua transferência bancária, senão não iremos conseguir processar seu depósito rapidamente.</span>"
       identity:
-        password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-        minúsculas e números.
+        password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
       reset_password:
-        password: Defina uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-        minúsculas e números.
+        password: Defina uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
       id_document:
         name: Por favor, informe o nome que é consistende com seus docuemntos.
       withdraw:
