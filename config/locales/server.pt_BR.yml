@@ -760,7 +760,7 @@ en:
         trades: Operando
         chat: Chat
       market_list:
-        all: Todos
+        all: Mercados
         all_html: "<i class='fa fa-check'></i><span>Todos</span>"
         usd_html: "<i class='fa fa-check'></i><span>Mercados USD</span>"
         btc_html: "<i class='fa fa-check'></i><span>Mercados BTC</span>"
