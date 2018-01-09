@@ -527,8 +527,8 @@ en:
         sell: Venda
         filter_by_type: Filtrar por tipo
         account_history: Histório da Conta
-        type: tipo
-        timestamp: data e hora
+        type: Tipo
+        timestamp: Data e Hora
         fee: Taxa
         currency: Moeda
         amount: Valor
@@ -672,7 +672,7 @@ en:
         usd-assets-total: 'Total de Ativos USD da corretora: '
       liability_proof:
         title: Prova de Confiabilidade
-        intro: Como uma corretora, nossas responsabilidades se referem a soma do dinheiro(tanto em crypo moedas como em moedas fiduciárias) que nossos usuários nos confiam. Nessa página nós mostramos a você nossas responsabilidades com transparência. Nós também lhe damos uma forma de verificar que seu saldo é realmente parte de nossas responsabilidades.
+        intro: <p>Como uma corretora, nossas responsabilidades se referem a soma do dinheiro(tanto em crypo moedas como em moedas fiduciárias) que nossos usuários nos confiam.</p> <p>Nessa página nós mostramos a você nossas responsabilidades com transparência.</p> <p>Nós também lhe damos uma forma de verificar que seu saldo é realmente parte de nossas responsabilidades.</p>
       liability_data:
         liability-proof-generating: Prova de Responsabilidade em manutenção, tente novamente em 30 minutos.
         root-json: Nó raiz
@@ -760,8 +760,8 @@ en:
         trades: Operando
         chat: Chat
       market_list:
-        all: Todos os Mercados
-        all_html: "<i class='fa fa-check'></i><span>Todos os Mercados</span>"
+        all: Todos
+        all_html: "<i class='fa fa-check'></i><span>Todos</span>"
         usd_html: "<i class='fa fa-check'></i><span>Mercados USD</span>"
         btc_html: "<i class='fa fa-check'></i><span>Mercados BTC</span>"
         xrp_html: "<i class='fa fa-check'></i><span>Mercados XRP</span>"
@@ -878,6 +878,7 @@ en:
       success: Configurações atualizadas com sucesso.
       failure: Código inválido. Tente novamente.
       index:
+        safety_instruction: &npsp;
         reset_password: Recriar sua Senha
         reauthenticate: Autenticação
         activated: Um e-mail foi enviado para você, verifique sua caixa postal se não recebeu clique em "Enviar de novamente"
