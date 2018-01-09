@@ -1,0 +1,57 @@
+en:
+  deposit_channel:
+    <%= name.underscore %>:
+      key: Block Chain
+      title: <%= name %> Depósitos
+      intro: Depósite <%= name.underscore %> de sua carteira para a nossa
+      latency: 1 confirmação
+      transfer: Manual
+      go: Depositar
+
+  activerecord:
+    attributes:
+      deposits/<%= name.underscore %>:
+        created_at: Em
+        txid: TXID
+        amount: Valor
+        confirmations: Confirmação
+        aasm_state_text: Situação
+
+  deposits/<%= name.underscore %>:
+    aasm_state:
+      submitted: Enviado
+      accepted: Aceito
+      checked: Validado
+      warning: Atenção
+
+  guides:
+    private:
+      deposits:
+        <%= name.underscore.pluralize %>:
+          panel: Depósitos
+          intro: Deposite <%= name.underscore %> de sua carteira para a nossa.
+          new:
+            default-panel: Operações de Depósito
+  admin:
+    deposits:
+      <%= name.underscore.pluralize %>:
+        update:
+          notice: Depósitado com sucesso.
+        index:
+          accept: Aceitar
+          accept_confirm: Aceitar Depósito?
+
+  private:
+    deposits:
+      <%= name.underscore.pluralize %>:
+        new:
+          step-1: Passo 1
+          open-wallet: Por favor use o seu prório serviço para criar uma carteira, use uma carteira local, carteira no celular ou online, selecione o pagamento e envie.
+          step-2: Passo 2
+          send-coin: Preencha os seguintes endereços que são específicos para seus depósitos em <%= name.underscore %>. Verifique o valor em <%= name.underscore %> que você quer enviar e não esqueça de pagar uma taxa ao minerador para garantir que a transação possa ser confirmada rapidamente.
+          or: Ou você pode também
+          scan-qr: Lendo o QR no celular code para pagar no sua carteira de celular.
+          step-3: Passo 3
+          check-confirm: Enviar <%= name.underscore %> para a nossa conta. Quando o a transação for conmfirmada na rede, o sistema irá automaticamente recarregar sua conta. Você não precisa atualizar essa página, transações e regarga serão atualizados em tempo real.
+          step-4: Passo 4
+          history_html: Tendo completado o envio, clique em <a href='javascript:window.location.reload();'>atualizar</a> para verificar o status do seu depósito abaixo.

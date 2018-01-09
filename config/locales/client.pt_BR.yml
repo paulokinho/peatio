@@ -47,9 +47,11 @@ en:
         title: Depoósito USD
         desc: "Para depositar via Transferência bancária, siga os seguintes passos:"
         desc_item_1: "1. Envie o formulário para obter o código de identificação."
-        desc_item_2: "2. Trasnfira o dinheiro para a conta do Bitganho. Nunca se esqueça de informar o seu código de indetificação no formulário de transferência do seu banco."
+        desc_item_2: "2. Transfira o dinheiro para a conta do Bitganho. Nunca se esqueça de informar o seu código de
+        indentificação no formulário de transferência do seu banco."
         desc_item_3: "3. Seu depósito será confirmado em até 24 horas."
-        attention: "Atenção: O nome na sua conta de banco deve ser o mesmo do seu cadastro, senão o deósito não será reconhecido."
+        attention: "Atenção: O nome na sua conta de banco deve ser o mesmo do seu cadastro, senão o deósito não será
+        reconhecido."
         from: De
         to: Para
         deposit_name: Seu Nome
@@ -74,9 +76,11 @@ en:
         address: Endereço
         new_address: Novo Endereço
         confirm_gen_new_address: tem ceretza que quer gerar um novo endereço para depósito?
-        open-wallet: Por favor use o seu prório serviço para criar uma carteira, use uma carteira local, carteira no celular ou online, selecione o pagamento e envie.
-        detail: Por favor cole o endereço na sua carteira, preencha a quantia que você quer depositar, confirme e depois envie.
-        scan-qr: Escanenado o QR code para pagar no sua carteira de celular.
+        open-wallet: Por favor use o seu prório serviço para criar uma carteira, use uma carteira local, carteira no
+        celular ou online, selecione o pagamento e envie.
+        detail: Por favor cole o endereço na sua carteira, preencha a quantia que você quer depositar, confirme e depois
+        envie.
+        scan-qr: Lendo o QR no celular code para pagar no sua carteira de celular.
         after_deposit: Depis que completar o envio, você pode verificar o status do seu novo depósito abaixo.
         generate-new: Gerar novo endereço.
 
@@ -122,7 +126,8 @@ en:
         title: Saque em XRP
 
       withdraw_coin:
-        intro: Por favor preencha o endereço da sua carteira, preencha a quantia que você quer sacar, confirme e depois envie. Será confirmado em 10 minutos./
+        intro: Por favor preencha o endereço da sua carteira, preencha a quantia que você quer sacar, confirme e depois
+        envie. Será confirmado em 10 minutos.
         label: Rótulo
         balance: Saldo
         amount: Quantia
