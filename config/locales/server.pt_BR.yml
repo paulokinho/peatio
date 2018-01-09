@@ -878,7 +878,7 @@ en:
       success: Configurações atualizadas com sucesso.
       failure: Código inválido. Tente novamente.
       index:
-        safety_instruction: &npsp;
+        safety_instruction: Instruções de Segurança
         reset_password: Recriar sua Senha
         reauthenticate: Autenticação
         activated: Um e-mail foi enviado para você, verifique sua caixa postal se não recebeu clique em "Enviar de novamente"
