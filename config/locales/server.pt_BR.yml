@@ -928,7 +928,7 @@ en:
   guides:
     private:
       settings:
-        panel: Configuraçõe
+        panel: Configurações
         index:
           intro: Administre e revise seu perfil.
       api_tokens:
