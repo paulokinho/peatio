@@ -1,0 +1,166 @@
+en:
+  js:
+    brand: Peatio
+    submit: Enviar
+    cancel: Cancelar
+    confirm: Confirmar
+    banks:
+      icbc: Industryand Commercial Bank of China
+      cbc: Construction Bank of China
+      bc: Bank of China
+      bcm: Bank of Communications
+      abc: Agriculture Bank of China
+      cmb: China Merchants Bank Ltd
+      cmbc: China Minsheng Banking Co., Ltd
+      cncb: China CITIC Bank
+      hxb: Hua Xia Bank Co., Ltd.
+      cib: Industrial Bank Co., Ltd
+      spdb: Shanghai Pudong Development Bank
+      bob: Bank of Beijing
+      ceb: China Everbright Bank CO.LTD
+      sdb: Shenzhen Development Bank
+      pab: Ping An Bank Co., Ltd.
+      gdb: Guangdong Development Bank
+      psbc: Postal Savings Bank of China
+      bos: Bank of Shanghai
+    fund_sources:
+      manage_bank_account: Gerenciar Contas de Banco
+      manage_bank_account_desc: Para facilitar a escolha de contas bancárias
+      manage_coin_address: Gerenciar Endereços de Moeda
+      manage_coin_address_desc: Para facilitar a escolha de ebdereços de moeda
+      bank: Banco
+      account: Número da Conta
+      label: Rótulo
+      address: Endereço
+      action: Ação
+      add: Adicionar
+      remove: Remover
+      default: Padrão
+    funds:
+      deposit: Depositar
+      withdraw: Retirar
+      currency_name:
+        usd: USD
+        btc: BTC
+        xrp: XRP
+      deposit_usd:
+        title: Depoósito USD
+        desc: "Para depositar via Transferência bancária, siga os seguintes passos:"
+        desc_item_1: "1. Envie o formulário para obter o código de identificação."
+        desc_item_2: "2. Trasnfira o dinheiro para a conta do Bitganho. Nunca se esqueça de informar o seu código de indetificação no formulário de transferência do seu banco."
+        desc_item_3: "3. Seu depósito será confirmado em até 24 horas."
+        attention: "Atenção: O nome na sua conta de banco deve ser o mesmo do seu cadastro, senão o deósito não será reconhecido."
+        from: De
+        to: Para
+        deposit_name: Seu Nome
+        deposit_account: Conta para Deósito
+        add: Adicionar
+        manage: Gerenciar
+        amount: Quantia
+        min_amount: Mínimo 30 USD
+        to_account: Conta
+        to_name: Nome
+        to_bank_name: Nome do Banco
+        opening_bank_name: Data de abertura da conta
+        remark: 'Código de Indentificação para usar na Transferência'
+
+      deposit_btc:
+        title: Depósito BTC
+
+      deposit_xrp:
+        title: Depósito XRP
+
+      deposit_coin:
+        address: Endereço
+        new_address: Novo Endereço
+        confirm_gen_new_address: tem ceretza que quer gerar um novo endereço para depósito?
+        open-wallet: Por favor use o seu prório serviço para criar uma carteira, use uma carteira local, carteira no celular ou online, selecione o pagamento e envie.
+        detail: Por favor cole o endereço na sua carteira, preencha a quantia que você quer depositar, confirme e depois envie.
+        scan-qr: Escanenado o QR code para pagar no sua carteira de celular.
+        after_deposit: Depis que completar o envio, você pode verificar o status do seu novo depósito abaixo.
+        generate-new: Gerar novo endereço.
+
+      deposit_history:
+        title: Histório de Depósitos
+        number: '#'
+        identification: Códifo de Identificação
+        time: Hora
+        txid: ID da Transação
+        confirmations: Confirmações
+        from: De
+        amount: Quantia
+        state_and_action: "Situação/Ação"
+        cancel: cancelar
+        no_data: Não há dados de histórico.
+
+        submitting: Enviando
+        cancelled: Cancelado
+        submitted: Enviado
+        accepted: Aceito
+        rejected: Rejeitado
+        checked: Verificado
+        warning: Atenção
+        suspect: Suspeito
+
+      withdraw_usd:
+        title: Saque em USD
+        intro: Selecione o banco para receber o dinheiro, informe o número da conta e envie.
+        intro_2: Sua conta de banco e nome devem estar consistentes com seu nome real.
+        attention: "Horário de funcionamento: 9:00 - 18:00"
+        account_name: Nome da Conta
+        withdraw_address: Número da Conta
+        balance: Saldo
+        withdraw_amount: Quantia para saque
+        manage_withdraw: Gerenciar Saque
+        min: Mínimo
+        withdraw_all: Sacar tudo
+
+      withdraw_btc:
+        title: Saque em BTC
+
+      withdraw_xrp:
+        title: Saque em XRP
+
+      withdraw_coin:
+        intro: Por favor preencha o endereço da sua carteira, preencha a quantia que você quer sacar, confirme e depois envie. Será confirmado em 10 minutos./
+        label: Rótulo
+        balance: Saldo
+        amount: Quantia
+        manage_withdraw: Gerenciar Endereço
+        min: Mínimo
+        withdraw_all: Sacar tudo
+
+      withdraw_history:
+        title: Histório de Saques
+        number: Número
+        withdraw_time: Hora
+        withdraw_account: Conta de saque
+        withdraw_address: Endereço
+        withdraw_amount: Quantia
+        actual_amount: Quanti atual
+        fee: taxa
+        miner_fee: Taxa de mineração
+        state_and_action: "Situação/Ação"
+        cancel: Cancelar
+        no_data: Não há dados de histórico.
+
+        submitting: Enviando
+        submitted: Enviado
+        rejected: Rejeitado
+        accepted: Aceito
+        suspect: Suspeito
+        processing: Processando
+        coin_ready: Coin Ready
+        coin_done: Coin Done
+        done: Concluído
+        almost_done: Quase pronto
+        canceled: Cancelado
+        failed: Falhou
+
+    markets:
+      market_list:
+        all: Todos os Mercados
+        usd: Mercado USD
+        btc: Mercado BTC
+        xrp: mercado XRP
+
