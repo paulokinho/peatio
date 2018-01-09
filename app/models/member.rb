@@ -6,7 +6,6 @@ class Member < ActiveRecord::Base
   has_many :fund_sources
   has_many :deposits
   has_many :api_tokens
-  has_many :signup_histories
 
   has_one :id_document
 
@@ -50,8 +49,6 @@ class Member < ActiveRecord::Base
       result = case field
                when 'email'
                  where('members.email LIKE ?', "%#{term}%")
-               when 'phone_number'
-                 where('members.phone_number LIKE ?', "%#{term}%")
                when 'name'
                  joins(:id_document).where('id_documents.name LIKE ?', "%#{term}%")
                when 'wallet_address'

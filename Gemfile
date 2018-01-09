@@ -60,7 +60,6 @@ gem 'grape-swagger', '~> 0.27.3'
 gem 'grape-swagger-ui', '~> 2.2.8'
 gem 'rack-attack', '~> 3.0.0'
 gem 'easy_table'
-gem 'phonelib', '~> 0.3.5'
 gem 'carrierwave', '~> 0.10.0'
 gem 'simple_captcha2', require: 'simple_captcha'
 gem 'rest-client', '~> 1.6.8'
@@ -82,9 +81,10 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara'
   gem 'database_cleaner'
   gem 'mocha', require: false
-  gem 'selenium-webdriver'
 
+  gem 'capybara',            '~> 2.17'
+  gem 'selenium-webdriver',  '~> 3.8'
+  gem 'chromedriver-helper', '~> 1.1'
 end
