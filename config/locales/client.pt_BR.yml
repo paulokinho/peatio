@@ -1,6 +1,6 @@
 en:
   js:
-    brand: Peatio
+    brand: Bitganho
     submit: Enviar
     cancel: Cancelar
     confirm: Confirmar
@@ -76,10 +76,8 @@ en:
         address: Endereço
         new_address: Novo Endereço
         confirm_gen_new_address: tem ceretza que quer gerar um novo endereço para depósito?
-        open-wallet: Por favor use o seu prório serviço para criar uma carteira, use uma carteira local, carteira no
-        celular ou online, selecione o pagamento e envie.
-        detail: Por favor cole o endereço na sua carteira, preencha a quantia que você quer depositar, confirme e depois
-        envie.
+        open-wallet: Por favor use o seu prório serviço para criar uma carteira, use uma carteira local, carteira no celular ou online, selecione o pagamento e envie.
+        detail: Por favor cole o endereço na sua carteira, preencha a quantia que você quer depositar, confirme e depois envie.
         scan-qr: Lendo o QR no celular code para pagar no sua carteira de celular.
         after_deposit: Depis que completar o envio, você pode verificar o status do seu novo depósito abaixo.
         generate-new: Gerar novo endereço.
@@ -126,8 +124,7 @@ en:
         title: Saque em XRP
 
       withdraw_coin:
-        intro: Por favor preencha o endereço da sua carteira, preencha a quantia que você quer sacar, confirme e depois
-        envie. Será confirmado em 10 minutos.
+        intro: Por favor preencha o endereço da sua carteira, preencha a quantia que você quer sacar, confirme e depois envie. Será confirmado em 10 minutos.
         label: Rótulo
         balance: Saldo
         amount: Quantia

@@ -271,8 +271,7 @@ en:
         less: saldo insuficiente
         verify: erro de verificação
         strength: senha muito fraca
-        password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-        minúsculas e números.
+        password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
         orders:
           price: preço limite %{l} ~ %{h}
           sum: preço limite total %{l} ~ %{h}
@@ -320,8 +319,8 @@ en:
       name: BitsharesX
       format: '0,0.0000'
     dollar:
-      key: usd
-      code: usd
+      key: USD
+      code: USD
       name: USD
       format: '0,0.00'
     dogecoin:
@@ -528,8 +527,8 @@ en:
         sell: Venda
         filter_by_type: Filtrar por tipo
         account_history: Histório da Conta
-        type: tipo
-        timestamp: data e hora
+        type: Tipo
+        timestamp: Data e Hora
         fee: Taxa
         currency: Moeda
         amount: Valor
@@ -612,8 +611,7 @@ en:
           fund_source_label: Rótulo
           manage_fund_source: Gerenciar Origem dos Fundos
         create:
-          notice: A solicitação de Saque foi enviada com sucesso. Use a informação abaixo para completar a transferência
-          bancária.
+          notice: A solicitação de Saque foi enviada com sucesso. Use a informação abaixo para completar a transferência bancária.
       ripples:
         destroy:
           notice: A solicitação de Saque foi cancelada, o valor foi devolvido ao seu saldo.
@@ -626,8 +624,7 @@ en:
           fund_source_label: Rótulo
           manage_fund_source: Gerenciar Origem dos Fundos
         create:
-          notice: A solicitação de Saque foi enviada com sucesso. Use a informação abaixo para completar a transferência
-          bancária.
+          notice: A solicitação de Saque foi enviada com sucesso. Use a informação abaixo para completar a transferência bancária.
     account_versions:
       index:
         description: Toda transalção and todo centavo que entra no Bitganho é muito bem e exaustivamente documentado.
@@ -649,8 +646,7 @@ en:
       create:
         success: Token API token foi criada com sucesso.
         failed: Falha ao criar o Token API. Tente de novo mais tarde ou contate o adminstrador.
-        desc: Por favor copie e cole a chave abaixo em um lugar seguro e salve-a. Essa chave nuca mais será mostrada
-        novamente.
+        desc: Por favor copie e cole a chave abaixo em um lugar seguro e salve-a. Essa chave nuca mais será mostrada novamente.
       edit:
         access_key_hint: Criado em %{created_at}
         label_hint: Rótulos ajudam você a lembrar o como você usou o token, é opcional.
@@ -676,10 +672,7 @@ en:
         usd-assets-total: 'Total de Ativos USD da corretora: '
       liability_proof:
         title: Prova de Confiabilidade
-        intro: Como uma corretora, nossas responsabilidades se referem a soma do dinheiro(tanto em crypo moedas como em
-        moedas fiduciárias) que nossos usuários nos confiam. Nessa página nós mostramos a você nossas responsabilidades
-        com transparência. Nós também lhe damos uma forma de verificar que seu saldo é realmente parte de nossas
-        responsabilidades.
+        intro: <p>Como uma corretora, nossas responsabilidades se referem a soma do dinheiro(tanto em crypo moedas como em moedas fiduciárias) que nossos usuários nos confiam.</p> <p>Nessa página nós mostramos a você nossas responsabilidades com transparência.</p> <p>Nós também lhe damos uma forma de verificar que seu saldo é realmente parte de nossas responsabilidades.</p>
       liability_data:
         liability-proof-generating: Prova de Responsabilidade em manutenção, tente novamente em 30 minutos.
         root-json: Nó raiz
@@ -701,10 +694,7 @@ en:
         title: Ativos USD
         intro: Todas os ativos USD da corretora estão listados aqui.
         total: Total de Ativos USD
-        description: " <p>Por motivos se supervisão, você pode perguntar o saldo de nossa conta de depósito:</p>
-        <p>Banco: %{bank}</p> <p>Conta Corrente： %{address}</p>
-        <p>Senha para contato： %{password}</p>
-        <p>Telefone para contato.： %{tel}</p>"
+        description: " <p>Por motivos se supervisão, você pode perguntar o saldo de nossa conta de depósito:</p> <p>Banco: %{bank}</p> <p>Conta Corrente： %{address}</p> <p>Senha para contato： %{password}</p> <p>Telefone para contato.： %{tel}</p>"
       partial_tree:
         success: 'Successo! Dados para Verificação gerados em: %{timestamp}'
     funds:
@@ -770,8 +760,8 @@ en:
         trades: Operando
         chat: Chat
       market_list:
-        all: Todos os Mercados
-        all_html: "<i class='fa fa-check'></i><span>Todos os Mercados</span>"
+        all: Mercados
+        all_html: "<i class='fa fa-check'></i><span>Todos</span>"
         usd_html: "<i class='fa fa-check'></i><span>Mercados USD</span>"
         btc_html: "<i class='fa fa-check'></i><span>Mercados BTC</span>"
         xrp_html: "<i class='fa fa-check'></i><span>Mercados XRP</span>"
@@ -876,8 +866,7 @@ en:
         amount: Valor
         time: Hora
       mask:
-        warning: Por favor <a class=text-up href='/'>, registre-se</a> ou <a class=text-up href='/'>faça login</a>
-        para operar.
+        warning: Por favor <a class=text-up href='/'>, registre-se</a> ou <a class=text-up href='/'>faça login</a> para operar.
       klime_chart:
         title: Gráficos Candlestick
       global:
@@ -889,25 +878,22 @@ en:
       success: Configurações atualizadas com sucesso.
       failure: Código inválido. Tente novamente.
       index:
+        safety_instruction: Instruções de Segurança
         reset_password: Recriar sua Senha
         reauthenticate: Autenticação
-        activated: Um e-mail foi enviado para você, verifique sua caixa postal se não recebeu clique em
-        "Enviar de novamente"
+        activated: Um e-mail foi enviado para você, verifique sua caixa postal se não recebeu clique em "Enviar de novamente"
         auth-activated: Por favor, primeiro confirme seu endereço de e-mails.
         auth-verified: Por favor, primeiro valide sua conta.
         email:
           title: Verificação de E-mail
-          description: Seu e-mail ainda não foi validado, clique no botão "Enviar e-mail" para continuar a
-          verificação.
-          description-activated: Seu e-mail for validado com sucesso. Lembre-se e proteja esse e-mail, ele é sua única
-          forma de acessar sua conta
+          description: Seu e-mail ainda não foi validado, clique no botão "Enviar e-mail" para continuar a verificação.
+          description-activated: Seu e-mail for validado com sucesso. Lembre-se e proteja esse e-mail, ele é sua única forma de acessar sua conta
           resend: Enviar novamente
           activated: Validado
           go: Definir
         phone_number:
           title: Telefone
-          description: Informar um número de telefone deixará sua conta mais segura. Você pode recriar rapidamente sua
-          senha e os resposáveis pela sua conta serão avisados.
+          description: Informar um número de telefone deixará sua conta mais segura. Você pode recriar rapidamente sua senha e os resposáveis pela sua conta serão avisados.
           go: Definir
           verified: Validado
           hint: "Número Validado %{hint}"
@@ -918,8 +904,7 @@ en:
           verified: Validado
         asset_passwords:
           title: Senha para Ativos
-          description: A senha para ativos será necessária para realizar saques. É muito recomendado que você utilize
-          uma senha diferente da utilizada para acessar sua conta!
+          description: A senha para ativos será necessária para realizar saques. É muito recomendado que você utilize uma senha diferente da utilizada para acessar sua conta!
           go: Definir
         passwords:
           title: Senha
@@ -943,15 +928,14 @@ en:
   guides:
     private:
       settings:
-        panel: Configuraçõe
+        panel: Configurações
         index:
           intro: Administre e revise seu perfil.
       api_tokens:
         panel: Tokens de API
         index:
           title: Meus Tokens
-          intro: Mostra todos os seus Tokens de API. Se 'IP's permitidos' estiver vazio, todos os IP's podem usar o
-          token.
+          intro: Mostra todos os seus Tokens de API. Se 'IP's permitidos' estiver vazio, todos os IP's podem usar o token.
         new:
           title: Criar Token de API
         create:
@@ -964,20 +948,17 @@ en:
         panel: Autenticação com Nome Real
         new:
           title: Envia as informaçõe para autenticação com Nome Real
-          intro: Em sincronismo com as leis nacionais, a validação de identidade é necessária, por favor valide sua conta
-          para continuar.
+          intro: Em sincronismo com as leis nacionais, a validação de identidade é necessária, por favor valide sua conta para continuar.
     panels:
       balance: Conta
     reset_passwords:
       panel: Senha
       new:
         title: Recriar Senha
-        intro: Por favor informe seu e-mail validado, informe o código de verificação e verifique seu e-mail. Siga as
-        instruções no e-mail para recriar sua senha.
+        intro: Por favor informe seu e-mail validado, informe o código de verificação e verifique seu e-mail. Siga as instruções no e-mail para recriar sua senha.
       create:
         title: Recriar Senha
-        intro: Por favor informe seu e-mail validado, informe o código de verificação e verifique seu e-mail. Siga as
-        instruções no e-mail para recriar sua senha.
+        intro: Por favor informe seu e-mail validado, informe o código de verificação e verifique seu e-mail. Siga as instruções no e-mail para recriar sua senha.
       edit:
         title: Definir Senha
       update:
@@ -1034,25 +1015,19 @@ en:
       deposit:
         bank:
           sum: "<a target='_balance' href='#'>Estrutura das Taxas/a>"
-          member_name: "<span class='text-danger'>O nome na sua conta de depósito deve ser igual ao seu nome de
-          autenticação.</span>"
-          sn: "<span class='text-danger'>Por favor copie o Número de sua transferência bancária, senão não iremos
-          conseguir processar seu depósito rapidamente.</span>"
+          member_name: "<span class='text-danger'>O nome na sua conta de depósito deve ser igual ao seu nome de autenticação.</span>"
+          sn: "<span class='text-danger'>Por favor copie o Número de sua transferência bancária, senão não iremos conseguir processar seu depósito rapidamente.</span>"
       identity:
-        password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-        minúsculas e números.
+        password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
       reset_password:
-        password: Defina uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-        minúsculas e números.
+        password: Defina uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
       id_document:
         name: Por favor, informe o nome que é consistende com seus docuemntos.
       withdraw:
         bank:
-          member_name: "<span class='text-danger'>>O nome na sua conta de saque deve ser igual ao seu nome de
-          autenticação.</span>"
+          member_name: "<span class='text-danger'>>O nome na sua conta de saque deve ser igual ao seu nome de autenticação.</span>"
           sum: "<a target='_balance' href='#'>Estrutura das Taxas</a>"
-          fund_extra: Se seu banco não está mais na lista, por favor contate o nosso SAC(Serviço de Atendimento ao
-          Cliente).
+          fund_extra: Se seu banco não está mais na lista, por favor contate o nosso SAC(Serviço de Atendimento ao Cliente).
         satoshi:
           sum: "<a target='_balance' href='#'>Estrutura das Taxas</a>"
         ripple:
@@ -1329,8 +1304,7 @@ en:
     dear_user: Caro usuário,
     signature: Obrigado,<br/>O time Bitganho
     please_contact: Se não foi você, por favor <a href='mailto:%{contact_mail}'>nos contate</a> o mais rápido possível.
-    footer: Este é um e-mail gerado automaticamente, por favor não responda, se você tiver alguma questão, por favor
-    <a href="mailto:%{contact_mail}">nos contate</a>.
+    footer: Este é um e-mail gerado automaticamente, por favor não responda, se você tiver alguma questão, por favor <a href="mailto:%{contact_mail}">nos contate</a>.
   deposit_mailer:
     accepted:
       subject: "[Bitganho] Seu depósito foi creditado na sua conta"
@@ -1367,16 +1341,13 @@ en:
   withdraw_mailer:
     submitted:
       subject: "[Bitganho] Atualização da situação do seu saque"
-      content: A solicitação do seu saque em %{currency} foi enviada, nós iremos processá-la o mais breve possível.
-      Por favor seja paciente conosco. Não hesite em nos contactar se você tiver qualquer dúvida.
+      content: A solicitação do seu saque em %{currency} foi enviada, nós iremos processá-la o mais breve possível. Por favor seja paciente conosco. Não hesite em nos contactar se você tiver qualquer dúvida.
     processing:
       subject: "[Bitganho] Atualização da situação do seu saque"
-      content: A solicitação do seu saque em %{currency} foi enviada, nós iremos processá-la o mais breve possível.
-      Por favor seja paciente conosco. Não hesite em nos contactar se você tiver qualquer dúvida.
+      content: A solicitação do seu saque em %{currency} foi enviada, nós iremos processá-la o mais breve possível. Por favor seja paciente conosco. Não hesite em nos contactar se você tiver qualquer dúvida.
     done:
       subject: "[Bitganho] Seu saque foi concluído"
-      content: A solicitação do seu saque em %{currency} foi concluída, por favor confira. Não hesite em nos contactar
-      se você tiver qualquer dúvida.
+      content: A solicitação do seu saque em %{currency} foi concluída, por favor confira. Não hesite em nos contactar se você tiver qualquer dúvida.
     withdraw_state:
       subject: "[Bitganho] Atualização da situação do seu saque"
       your_state: 'Situação do seu saque: '
@@ -1401,7 +1372,7 @@ en:
     brand: Corretora Bitganho
     notification:
       title: Corretora Bitganho
-      enabled: Notificações ligadas.
+      enabled: Notificações
       new_trade: "%{kind} ordem#%{id} executada em %{price} %{quote_unit} para %{volume} %{base_unit}。"
   back: Back
   invalid_password: Senha inválida
@@ -1558,13 +1529,11 @@ en:
     new:
       title: REGISTRE-SE
       signin: Acesse
-      password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-      minúsculas e números.
+      password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
     update:
       auth-error: A senha anterior que você informou está incorreta, por favor informe outra.
-      auth-same: A nova senha que você informou é a mesma uque a anteriror, por favor informe uma nova senha uma
-      diferente da anterior.
-      notice: Senah alterada com sucesso.
+      auth-same: A nova senha que você informou é a mesma uque a anteriror, por favor informe uma nova senha uma diferente da anterior.
+      notice: Senha alterada com sucesso.
   layouts:
     admin:
       menus:
@@ -1591,11 +1560,9 @@ en:
       name: Por favor preencha o formulário.
   reset_passwords:
     create:
-      success: O e-mail para recriar sua senha foi enviado para o seu e-mail, Se não receber, verifique a pasta Spam ou
-      peça para recriar a senha novamente.
+      success: O e-mail para recriar sua senha foi enviado para o seu e-mail, Se não receber, verifique a pasta Spam ou peça para recriar a senha novamente.
     edit:
-      password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas,
-      minúsculas e números.
+      password: Por favor informe uma senha com pelo menos 6 caracteres. Uma boa senha deve conter letras maiúsculas, minúsculas e números.
       invalid: Requisição inválida
       submit: Recriar a Senha de Acesso
       alert: Link para recriar a senha inválido.
@@ -1608,8 +1575,7 @@ en:
     create:
       disabled: Sua conta foi desabilitada, contate o administrator se você tiver alguma problema.
     failure:
-      account_locked: Muitas tentativas de acesso falharam. Para garantir a segurança da sua conta, nós bloqueamos sua
-      conta. Para desbloquear recrie sua senha clicando em "Esqueci a Senha".
+      account_locked: Muitas tentativas de acesso falharam. Para garantir a segurança da sua conta, nós bloqueamos sua conta. Para desbloquear recrie sua senha clicando em "Esqueci a Senha".
       error: E-mail ou senha inválida, tenete novamente.
   shared:
     admin:
@@ -1621,8 +1587,7 @@ en:
         account_info: Informação da Conta
         payment_address: Endereço de Depósito
     alert:
-      modern: Para não afetar sua experiênca nas operações, por favor use um navegador mais popular, nós recomendamos a
-      você o <a target='_blank' href='https://www.google.com/#q=google+chrome'>Google Chrome</a>
+      modern: Para não afetar sua experiênca nas operações, por favor use um navegador mais popular, nós recomendamos a você o <a target='_blank' href='https://www.google.com/#q=google+chrome'>Google Chrome</a>
       pusher_unavailable: A conexão esá temporiamente indisponível... <ahref='#' class='alert-link'>Tentar novamente</a>.
     header:
       balance: Saldo
